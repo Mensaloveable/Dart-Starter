@@ -16,6 +16,7 @@ void main(List<String> args) {
 
   <int>[11, 22, 33];
 
+  /*Map*/
   Map<String, dynamic> myMap = {
     "name": "Loveable",
     "age": 30,
@@ -25,4 +26,8 @@ void main(List<String> args) {
 
   print(myMap['name'] + " is great: " + myMap['isGreat'].toString());
   print('${myMap['name']} is great: ${myMap['isGreat']}');
+
+  /*Set*/
+  Set<int> mySet = {1, 2, 3, 2, 0, 1};
+  print(mySet);
 }
