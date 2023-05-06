@@ -14,5 +14,15 @@ void main(List<String> args) {
 
   final justAnotherList = [2, 4, 6, 8, 0];
 
-  <int>[11,22,33];
+  <int>[11, 22, 33];
+
+  Map<String, dynamic> myMap = {
+    "name": "Loveable",
+    "age": 30,
+    "married": false,
+    "isGreat": true
+  };
+
+  print(myMap['name'] + " is great: " + myMap['isGreat'].toString());
+  print('${myMap['name']} is great: ${myMap['isGreat']}');
 }
